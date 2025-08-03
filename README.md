@@ -1,50 +1,29 @@
-# 🎓 College Admission Agent (RAG-Based Chatbot)
+## 🎓 About the Project
 
-This AI-powered **College Admission Agent**, built using **IBM Watson Assistant** and **IBM Granite Models** on **IBM Cloud**, simplifies the college admission journey by offering accurate, real-time answers to students' most common questions. It covers **course selection, eligibility, application process, cutoffs, fee structure**, and more.
+The **College Admission Agent** is an intelligent virtual assistant developed to streamline the admission process in educational institutions. Built using IBM's cutting-edge technologies—**Watson Assistant**, **Watsonx Granite models**, and **Retrieval-Augmented Generation (RAG)**—this chatbot offers accurate, real-time responses to a wide range of admission-related queries.
 
----
+It is capable of answering:
 
-## 📌 Features
+- 📘 Course options based on interests or qualifications  
+- 🧾 Detailed eligibility criteria by category or academic background  
+- 📅 Admission deadlines, counseling dates, and document requirements  
+- 💰 Tuition, hostel fees, and scholarships  
+- 📊 College- and category-wise cutoff marks  
+- 📂 Information from documents like brochures, PDFs, and CSVs using RAG  
 
-- 🔍 **Course Guidance** – Helps users explore suitable academic programs.
-- 🧾 **Eligibility Criteria** – Explains academic and category-based qualifications.
-- 💬 **Real-time FAQ Handling** – Uses Watson Assistant and RAG for natural dialogue.
-- 📅 **Admission Deadlines** – Informs users about application and counselling dates.
-- 💸 **Fee Structure Info** – Provides tuition and hostel fee details.
-- 🏫 **College Cutoff Scores** – Shares cutoff marks for various courses and categories.
-- 🧠 **RAG (Retrieval-Augmented Generation)** – Retrieves facts from admission brochures or institutional documents.
-- ⚙️ **IBM Granite Models** – Generates accurate responses in natural language, improving the user experience.
+By integrating **Retrieval-Augmented Generation (RAG)**, the assistant retrieves contextual answers from uploaded documents, enhancing accuracy beyond static FAQ-style bots. Combined with **Watsonx Granite**, it understands complex queries, generates natural responses, and scales seamlessly for institutional use.
 
 ---
 
-## 🚀 Technologies Used
+## 🛠️ Technologies Used
 
-| Tool                  | Purpose                                        |
-|----------------------|------------------------------------------------|
-| **IBM Watson Assistant** | Conversational AI for chatbot interface     |
-| **IBM Cloud**             | Hosting and service integration platform    |
-| **IBM Granite Model**     | Advanced LLMs for retrieval + generation    |
-
----
-
-## 🧪 Sample Queries
-
-Try asking the bot:
-
-1. “What is the eligibility for B.Sc. CS?”
-2. “How can I apply for admission online?”
-3. “Is there a management quota for BBA?”
-4. “What documents are required during counselling?”
-5. “When does MCA admission start?”
-6. “Tell me hostel fee for OBC category.”
-7. “Cutoff marks for ECE in 2024?”
+| Technology              | Purpose                                                                 |
+|-------------------------|-------------------------------------------------------------------------|
+| **IBM Watson Assistant**| Natural language processing and chatbot creation                        |
+| **IBM Watsonx Granite** | Foundation model for smart generation and response formulation          |
+| **RAG (Retrieval-Augmented Generation)** | Retrieves content from documents to answer dynamic queries        |
+| **IBM Cloud**           | Platform for hosting Watson Assistant and Watsonx services              |
+| **PDF/CSV Upload**      | Input sources for documents like cutoffs, fees, and brochures           |
+| *(Optional)* Flask / API| For backend integration (e.g., if embedding in web/app)                 |
 
 ---
-
-## 🔧 Setup Instructions
-
-### ✅ Step 1: Clone This Repository
-
-```bash
-git clone https://github.com/Mohanavelayyavu/Admission_agent.git
-cd Admission_agent
